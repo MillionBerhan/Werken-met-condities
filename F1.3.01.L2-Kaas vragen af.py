@@ -1,8 +1,8 @@
-invoer = str(input('is de kaas geel?'))
+invoer = input('is de kaas geel?')
 if invoer == "ja":
-    invoer = str(input('zitten er gaten in?'))
+    invoer = input('zitten er gaten in?')
     if invoer == "ja":
-        invoer = str(input('Is de kaas belachelijk duur?'))
+        invoer = input('Is de kaas belachelijk duur?')
         if invoer == "ja":
             print("Emmenthaler")
         else: 
