@@ -124,18 +124,18 @@ else:
         print ("je hebt gewonnen lucky try!")
     else:
         print ("b: blijft in het lokaal en gaat verstoppen")
-        if input ("Je rent naar buiten en je stopt met rennen op een gegeven moment, wat ga je doen?\na:je belt de politie.\nb:je gaat proberen aan te vallen als hij omkijkt!\n ").lower() == "a":
-           print("A: Je belt de politie.")
+        if input ("Je rent naar buiten en je stopt met rennen op een gegeven moment, wat ga je doen?\na:je gaat hem proberen aan te vallen.\nb:je belt de politie.\n ").lower() == "a":
+           print("a: Je gaat hem proberen aan te vallen!")
         else:
-           print("je gaat hem proberen aan te vallen als hij omkijkt!")
+           print("b:je belt de politie.")
            if input ("je besluit nu al om de politie te bellen, welk nummer besluit je te bellen?\na:112.\nb:911.\n").lower() == "a" :
               print("a: 112.")
            else:
               print ("b:911.")
 
-        if input("Je gaat hem met de vuist proberen te pakken, hoe doe je dat?\nA: een goeie op zijn linker\nB: een goeie op zijn rechter.\n").lower() == "a" :
-               print ("a: geeft hem een goeie linker!")
-        else:
+              if input("Je gaat hem met de vuist proberen te pakken, hoe doe je dat?\nA: een goeie op zijn linker\nB: een goeie op zijn rechter.\n").lower() == "a" :
+                print ("a: geeft hem een goeie linker!")
+              else:
                print("b: een goeie op zijn rechter.")
 
         if input ("Je gaat hem proberen aan te vallen wat ga je doen?\nA: je gaat hem met de vuist proberen te pakken, zodat je de held van de eeuw kunt gaan worden!\nB: Je besluit toch terug te trekken en je gaat als een mietje in een hoekje huilen.\n").lower() == "a" :
@@ -144,7 +144,6 @@ else:
             print ("u heeft verloren!")
         else:
             print ("b: Je besluit toch terug te trekken en je gaat als een mietje in een hoekje huilen.")
-            print ("Politie is op tijd gekomen en u heeft de aanslag overleefd!")
             print ("U heeft gewonnen!")
 
 
