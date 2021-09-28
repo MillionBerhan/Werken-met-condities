@@ -119,19 +119,19 @@ else:
 
 
 
-if input ("Er is een gek die met wapens op leerlingen schiet, hij is op dit moment in de kantine, jij zit in het IT lokaal. Wat ga jij doen?\nA: rent via de nooduitgang naar buiten.\nB: blijft in het lokaal en gaat verstoppen.\n").lower() == "a" :
-    print ("a: je rent via de nooduigang naar buiten! ")
-    print ("je hebt gewonnen lucky try!")
-else:
-    print ("b: blijft in het lokaal en gaat verstoppen")
-    if input ("Je rent naar buiten en je stopt met rennen op een gegeven moment, wat ga je doen?\na:je belt de politie.\nb:je gaat proberen aan te vallen als hij omkijkt!\n ").lower() == "a":
-        print("A: Je belt de politie.")
+    if input ("Er is een gek die met wapens op leerlingen schiet, hij is op dit moment in de kantine, jij zit in het IT lokaal. Wat ga jij doen?\nA: rent via de nooduitgang naar buiten.\nB: blijft in het lokaal en gaat verstoppen.\n").lower() == "a" :
+        print ("a: je rent via de nooduigang naar buiten! ")
+        print ("je hebt gewonnen lucky try!")
     else:
-        print("je gaat hem proberen aan te vallen als hij omkijkt!")
-        if input ("je besluit nu al om de politie te bellen, welk nummer besluit je te bellen?\na:112.\nb:911.\n").lower() == "a" :
-           print("a: 112.")
+        print ("b: blijft in het lokaal en gaat verstoppen")
+        if input ("Je rent naar buiten en je stopt met rennen op een gegeven moment, wat ga je doen?\na:je belt de politie.\nb:je gaat proberen aan te vallen als hij omkijkt!\n ").lower() == "a":
+           print("A: Je belt de politie.")
         else:
-           print ("b:911.")
+           print("je gaat hem proberen aan te vallen als hij omkijkt!")
+           if input ("je besluit nu al om de politie te bellen, welk nummer besluit je te bellen?\na:112.\nb:911.\n").lower() == "a" :
+              print("a: 112.")
+           else:
+              print ("b:911.")
 
         if input("Je gaat hem met de vuist proberen te pakken, hoe doe je dat?\nA: een goeie op zijn linker\nB: een goeie op zijn rechter.\n").lower() == "a" :
                print ("a: geeft hem een goeie linker!")
