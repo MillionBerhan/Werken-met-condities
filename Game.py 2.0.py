@@ -86,6 +86,38 @@ print ("""
 █▀█ █▀█   █▀▄ █▀▀   █░█ █ █▀▀ █░█   █▀ █▀▀ █░█ █▀█ █▀█ █░░ █
 █▄█ █▀▀   █▄▀ ██▄   █▀█ █ █▄█ █▀█   ▄█ █▄▄ █▀█ █▄█ █▄█ █▄▄ ▄""")
 
+print ("Een leerling heeft een leuk gesprekje met je voor dat je een naar gevoel krijgt. (hij/zij stelt gesloten vragen)")
+vrienden = input ("1.heb je veel vrienden?")
+cijfers = input ("2. Haal je goede cijfers op school?")
+gelukkig = input ("3. Denk je dat je op dit moment gelukkig bent met je leven?")
+huisdier = input ("4. Heb je een huisdier?")
+lach = input("5. Lach je vaak en veel?")
+
+
+if vrienden == "ja":
+    print ("je hebt veel vrienden.") 
+else:
+    print ("je hebt niet veel vrienden.")
+if cijfers == "ja":
+    print("je haalt goede cijfers op school.")
+else:
+    print ("je haalt niet zo goede cijfers op school.")
+if gelukkig == "ja":
+    print("je bent gelukkig in het leven.")
+else:
+    print("je bent niet zo gelukkig in het leven!")
+if huisdier == "ja":
+    print("je hebt een huisdier.")
+else:
+    print("je hebt geen huisdier.")
+if lach == "ja":
+    print ("je lacht veel.")
+else:
+    print ("je lacht niet zo veel.")
+    
+    input("Press Enter to continue...") 
+
+
 A = "A"
 
 name = input ("wat is je naam?")
@@ -118,39 +150,49 @@ else:
                                                       %%%%%&&%,        %&#   """)
 
 
-
     if input ("Er is een gek die met wapens op leerlingen schiet, hij is op dit moment in de kantine, jij zit in het IT lokaal. Wat ga jij doen?\nA: rent via de nooduitgang naar buiten.\nB: blijft in het lokaal en gaat verstoppen.\n").lower() == "a" :
         print ("a: je rent via de nooduigang naar buiten! ")
         print ("je hebt gewonnen lucky try!")
     else:
         print ("b: blijft in het lokaal en gaat verstoppen")
-        if input ("Je rent naar buiten en je stopt met rennen op een gegeven moment, wat ga je doen?\na:je gaat hem proberen aan te vallen.\nb:je belt de politie.\n ").lower() == "a":
-           print("a: Je gaat hem proberen aan te vallen!")
+        if input ("Je blijft in het lokaal en gaat je verstoppen, je ziet dat de dader met het wapen gaat kijken of er mensen in je lokaal zitten, wat ga jij doen?\na: je blijft cool, calm, collective net Selma Omari.\nb:wees dom en gek net famke louise en rent rondjes door het lokaal.\n").lower() == "a" :
+            print("a: je blijft cool, calm, collective net Selma Omari.")
         else:
-           print("b:je belt de politie.")
-           if input ("je besluit nu al om de politie te bellen, welk nummer besluit je te bellen?\na:112.\nb:911.\n").lower() == "a" :
-              print("a: 112.")
-           else:
-              print ("b:911.")
+            print ("b:wees dom en gek net famke louise en rent rondjes door het lokaal.")
 
-              if input("Je gaat hem met de vuist proberen te pakken, hoe doe je dat?\nA: een goeie op zijn linker\nB: een goeie op zijn rechter.\n").lower() == "a" :
-                print ("a: geeft hem een goeie linker!")
-              else:
-               print("b: een goeie op zijn rechter.")
-
-        if input ("Je gaat hem proberen aan te vallen wat ga je doen?\nA: je gaat hem met de vuist proberen te pakken, zodat je de held van de eeuw kunt gaan worden!\nB: Je besluit toch terug te trekken en je gaat als een mietje in een hoekje huilen.\n").lower() == "a" :
-            print ("a: je gaat hem met de vuist proberen te pakken, zodat je de held van de eeuw kunt gaan worden!")
-            print ("u bent helaas neergeschoten!")
-            print ("u heeft verloren!")
+        if input ("je bent cool, calm, collective gebleven net Selma, je ziet dat de shooter uit het lokaal rent, wat ga je doen?\na: je blijft op dezelfde positie en beweegt niet.\nb: je rent nu via de normale route de school uit met gewapende mannen in de school.\n").lower() == "a" :
+            print ("a: je blijft op dezelfde positie en beweegt niet.")
         else:
-            print ("b: Je besluit toch terug te trekken en je gaat als een mietje in een hoekje huilen.")
-            print ("U heeft gewonnen!")
+            print("b: je rent nu via de normale route de school uit met gewapende mannen in de school.")
+        
+            if input ("Je rent naar buiten en je stopt met rennen op een gegeven moment, wat ga je doen?\na:je gaat hem proberen aan te vallen.\nb:je belt de politie.\n ").lower() == "a":
+                print("a: Je gaat hem proberen aan te vallen!")
+            else:
+                print("b:je belt de politie.")  
+                if input ("je besluit nu al om de politie te bellen, welk nummer besluit je te bellen?\na:112.\nb:911.\n").lower() == "a" :
+                    print("a: 112.")
+                    print("je hebt helaas verloren want de politie kwam te laat!")  
+                else:
+                    print ("b:911.")
+                    print ("je hebt verloren want je hebt het verkeerde nummer gebeld.") 
+
+            if input ("Je gaat hem proberen aan te vallen wat ga je doen?\na: je gaat hem met de vuist proberen te pakken, zodat je de held van de eeuw kunt gaan worden!\nb: Je besluit toch terug te trekken en je gaat als een mietje in een hoekje huilen.\n").lower() == "a" :
+                print ("a: je gaat hem met de vuist proberen te pakken, zodat je de held van de eeuw kunt gaan worden!")
+                print ("u bent helaas neergeschoten!")
+                print ("u heeft verloren!")
+            else:
+                print ("b: Je besluit toch terug te trekken en je gaat als een mietje in een hoekje huilen.")
+                print ("je hebt gewonnen.")
+
+                       
+
+
 
 
     
         
     
-            
+ 
 
     
         
